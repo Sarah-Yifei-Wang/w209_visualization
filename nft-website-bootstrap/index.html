@@ -19,15 +19,19 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Exploration</a>
+                <a class="navbar-brand" href="#page-top">NFT Exploration</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Introduction</a></li>
                         <li class="nav-item"><a class="nav-link" href="#explore">Explore</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#market">Market</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#dashboard">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#owner">Owner</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cryptopunk">CryptoPunk</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
@@ -39,13 +43,15 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Non-Fungible Tokens Exploration</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">MIDS | W209 | Spring 2022 | Yao Chen, Stephanie He, Sarah Wang, Brenna Giacchino</h2>
+                        <br>
+                        <h3 class="text-white-50 mx-auto mt-2 mb-5">MIDS | W209 Data Visualization | Spring 2022</h3>
+                        <h3 class="text-white-50 mx-auto mt-2 mb-5">Yao Chen, Stephanie He, Sarah Wang, Brenna Giacchino</h3>
                         <a class="btn btn-primary" href="#about">Get Started</a>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- About-->
+        <!-- Intro-->
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -114,10 +120,12 @@
             <div class="container px-4 px-lg-5">
                 
                 <!-- Embedded Tableau Testing for Sales and Transactions -->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    
+        <section class="explore-section bg-light" id="market">
+            <div class="container px-4 px-lg-5">
 
-                    <h2>NFT Sales vs. Transactions</h2>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+
+                    <h1>NFT Sales vs. Transactions</h1>
 
                     <p class="text-black-50 mb-0">
                         <br>To get a general understanding of NFT markets, there are thousands of NFT collections out there.
@@ -137,7 +145,7 @@
                 
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     
-                    <h2>NFT Popularity</h2>
+                    <h1>NFT Popularity</h1>
                     
                     <p class="text-black-50 mb-0">
                         <br>NFTs are like physical collectors items, only digital. They have exclusive ownership 
@@ -217,7 +225,66 @@
                     
                     <p><br><br></p>
 
-                    <h2>NFT Owners and Collections</h2>
+                    <h1>Primary Crypto Currencies by Market</h1>
+
+                    <p class="text-black-50 mb-0">
+                        <br> Similar to companies trading on stock exchanges, NFT marketplaces are the hubs where
+                        the virtual assets, artwork and rare collectibles are traded. There are five most popular NFT
+                        marketplaces: OpenSea, Atomic, Crypto Kitties, Decentraland, Gods unchained. Some marketplace
+                        only sells one collection, virtual land or player cards. Can you notice that each marketplace
+                        uses different cryptocurrencies? What is the distribution of common cryptocurrencies within OpenSea
+                        marketplace? <br><br>
+                    </p>
+
+                    <div class='tableauPlaceholder' id='viz1648432778074' style='position: relative'><noscript><a href='#'><img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFTEDA&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NFTEDA&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFTEDA&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1648432778074');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+                    <p><br></p>
+        </section>
+
+
+        <!-- NFT Interactive Dashboard -->
+        <section class="dashboard-section bg-light" id="dashboard">
+            <div class="container px-4 px-lg-5">
+
+                <h1>Sales Interactive Dashboard</h1>
+
+                <p class="text-black-50 mb-0">
+                        <br>In order to compare and contrast the NFT collections with the most investment potential,
+                        we create an interactive dashboard to demonstrate the daily sales volume and Ethereum values.
+                        Can you identify the sales trend and volatility of your chosen collections? <br><br>
+                    </p>
+
+                <div class='tableauPlaceholder' id='viz1648431339495' style='position: relative'><noscript>
+                    <a href='#'>
+                        <img alt='NFT Collections Interactive Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFTEDA&#47;NFTCollectionsInteractiveDashboard&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                    <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NFTEDA&#47;NFTCollectionsInteractiveDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFTEDA&#47;NFTCollectionsInteractiveDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' />
+                    </object>
+                </div>
+                <script type='text/javascript'>                    var divElement = document.getElementById('viz1648431339495');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='795px';} else { vizElement.style.width='100%';vizElement.style.height='1677px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+                <p><br></p>
+
+                <h1>NFT Image Display</h1>
+
+                <p class="text-black-50 mb-0">
+                        <br>Are you curious what are some of the most expensive NFTs looking like? We further create
+                        below visual to display each NFT image by collection and by category. Click each point to display
+                        the NFT.<br><br>
+                    </p>
+
+                <div class='tableauPlaceholder' id='viz1648432897720' style='position: relative'><noscript><a href='#'><img alt='NFT Display Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFTImageDisplaybyCategory&#47;NFTDisplayDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NFTImageDisplaybyCategory&#47;NFTDisplayDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;NF&#47;NFTImageDisplaybyCategory&#47;NFTDisplayDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1648432897720');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+                <p><br></p>
+
+        </section>
+
+        <!-- NFT Owners -->
+        <section class="owner-section bg-light" id="owner">
+            <div class="container px-4 px-lg-5">
+
+                    <h1>NFT Owners and Collections</h1>
                     
                     <p class="text-black-50 mb-0">
                         <br>Because NFT ownership is easy to certify, it would also be useful to investigate 
@@ -329,11 +396,11 @@
         </section>   
 
         <!-- CryptoPunks: A Detailed View -->
-        <section class="explore-section bg-light text-center" id="explore">
+        <section class="cryptopunk-section bg-light text-center" id="cryptopunk">
             <div class="container px-4 px-lg-5">
                 
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <h2>CryptoPunks: How may we quantify the uniqueness of an NFT within a collection?</h2>
+                    <h1>CryptoPunks: How may we quantify the uniqueness of an NFT within a collection?</h1>
                     
                     <p class="text-black-50 mb-0">
                     Now that you’ve seen general NFT trends comparing transactions, sales, marketplaces, and owners,
@@ -505,7 +572,7 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">UC Berkeley 110 Sproul Hall #5800 Berkeley, CA 94720</div>
                             </div>
                         </div>
                     </div>
@@ -515,7 +582,9 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a href="#!">brennagiacchino@berkeley.edu stephaniehe2021@berkeley.edu yaoc16@berkeley.edu sarahwang688@berkeley.edu
+
+</a></div>
                             </div>
                         </div>
                     </div>
