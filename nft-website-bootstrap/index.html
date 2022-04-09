@@ -302,8 +302,6 @@
                         
                         <div class='tableauPlaceholder' id='viz1647902598536' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HW&#47;HW11_16428952981530&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HW11_16428952981530&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HW&#47;HW11_16428952981530&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1647902598536');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
                         
-                        <p><br></p>
-                        
                         <h3>Sales Interactive Dashboard</h3>
 
                         <p class="text-black-50 mb-0">
@@ -333,13 +331,16 @@
                     
                     <p class="text-black-50 mb-0">
                         <br>Because NFT ownership is easy to certify, it would also be useful to investigate 
-                        the ownership structure. We select the top 5 collections and find out: 
-                        1) the average tokens each owner address per collectin is between 1.5 to 5.2, with
-                        the average and median is close to 1 or 2.
-                        2) most owners own just one collection instead of multiple collections
-                        Based on the analysis, we tend to conclude that NFTs are owned by a large number of 
-                        individuals instead of a small group of people controlling the assets.
+                        the ownership structure. We select the top 5 collections and examine:
+                        <ol class="text-black-50 mb-0">
+                            <br>
+                            <li> The average tokens each owner address per collection is between 1.5 to 5.2, with
+                            the average and median is close to 1 or 2.<br><br>
+                            <li> Most owners own just one collection instead of multiple collections
+                            Based on the analysis, we tend to conclude that NFTs are owned by a large number of 
+                            individuals instead of a small group of people controlling the assets.
                         <br><br>
+                        </ol> 
                     </p>
 
                     <!--Tableau: NFT Ownership Analysis-->
@@ -405,7 +406,8 @@
                         <p class="text-black-50 mb-0">
                             <br>We focus our attention to the <b>CryptoPunks</b> collection, created in June 2017 by Larva Labs studio, 
                             making it one of the oldest NFT collections to exist. The CryptoPunks collections contains <b>10,000</b> 
-                            NFTs, each equipped with a set of unique attributes.<br><br>
+                            NFTs, each equipped with a set of unique attributes. Each Punk is associated with a <b>Punk ID</b>, a number 
+                            between <b>0</b> and <b>9999</b>.<br><br>
 
                             In some cases, the attributes of an NFT are randomly generated and distributed throughout the 
                             collection. Some attributes may be seen more frequently among the tokens, and others are 
@@ -413,7 +415,8 @@
 
                             CryptoPunks, in particular, are associated with two attributes: the Punk <b>Type</b>, and the 
                             Punk <b>Accessories</b>. Each Punk has one Type and between zero and seven Accessories. An overview 
-                            of these counts is shown in the visualization below.<br><br> 
+                            of these counts is shown in the visualization below. Can you determine the most popular 
+                            accessories and types? How about the most unique?<br><br> 
 
                         </p>
 
@@ -424,7 +427,7 @@
                         Accessories sell for more, on average. <br><br>
 
                         A <b>uniqueness score</b> was computed based on the accessory type frequencies for each of the 
-                        Punks. Scoring was computed using term-frequency-inverse document frequency (tf-idf), 
+                        Punks. Scoring was computed using term frequency-inverse document frequency (tf-idf), 
                         a common measure that quantifies the significance of categorical data. In the context of 
                         our problem, the higher the score, the more unique the NFT.<br><br>
                         
@@ -456,7 +459,7 @@
                         </p>  
 
                         <!-- Tableau: Individual NFT Exploration of Accessories, Types, and Average Sales Price -->
-                        <div class='tableauPlaceholder' id='viz1649293662648' style='position: relative'><noscript><a href='#'><img alt='CryptoPunk Attributes Exploration ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pu&#47;punk_accessories_type_price&#47;CryptoPunkAttributesExploration2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='punk_accessories_type_price&#47;CryptoPunkAttributesExploration2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pu&#47;punk_accessories_type_price&#47;CryptoPunkAttributesExploration2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1649293662648');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1327px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        <div class='tableauPlaceholder' id='viz1649535900155' style='position: relative'><noscript><a href='#'><img alt='CryptoPunk Attributes Exploration ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pu&#47;punk_accessories_type_price&#47;CryptoPunkAttributesExploration2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='punk_accessories_type_price&#47;CryptoPunkAttributesExploration2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;pu&#47;punk_accessories_type_price&#47;CryptoPunkAttributesExploration2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1649535900155');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1024px';vizElement.style.height='695px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1024px';vizElement.style.height='695px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
                     </div>
                 </div>
             </div>
